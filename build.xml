@@ -2,8 +2,8 @@
 
     <property name="lib.dir" value="/usr/share/ant/lib" />
     <path id="classpath">
-        <pathelement location="/usr/share/ant/lib/ant-junit4-1.10.7.jar"/>
-        <pathelement location="/usr/share/ant/lib/ant-junit-1.9.2.jar"/>
+        <pathelement location="${lib.dir}/ant-junit4-1.10.7.jar"/>
+        <pathelement location="${lib.dir}/ant-junit-1.9.2.jar"/>
     </path>
 
     <target name="clean">
